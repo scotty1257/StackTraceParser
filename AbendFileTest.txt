@@ -1,0 +1,38 @@
+
+[ALTERNATE_STACK]
+
+CATErrorLogInfoLastChance<G:\R426\BSF\System\JS0ERROR.m\src\CATError.cpp:3640 > [pc:0x00007FFAAA3AEFB6]
+CATSysErrCx::CATErrorTerminate<G:\R426\BSF\System\JS0ERROR.m\src\CATErrorCxxException.cpp:364  > [pc:0x00007FFAAA3B1FA0]
+CATError::Throw<G:\R426\BSF\System\JS0ERROR.m\src\CATErrorCxxException.cpp:207  > [pc:0x00007FFAAA3B1713]
+CATFatalError<G:\R426\BSF\System\JS0ERROR.m\src\CATError.cpp:791  > [pc:0x00007FFAAA3A8483]
+CATListValCATBaseUnknown_var::operator[]<G:\R426\BSF\System\JS0CORBA.m\src\CATLISTV_CATBaseUnknown.cpp:36   > [pc:0x00007FFAAA36988C]
+SWXCSMBDAnnUtils::CalculateOffsetDirection<E:\git\r426-SWXWeb\web\src\SWXCSMBD\SWXCSMBDModeler.m\src\SWXCSMBDAnnUtils.cpp:2194 > [pc:0x00007FFA62ED7E2B]
+SWXCSMBDAnnUtils::DoOffset<E:\git\r426-SWXWeb\web\src\SWXCSMBD\SWXCSMBDModeler.m\src\SWXCSMBDAnnUtils.cpp:2145 > [pc:0x00007FFA62ED7152]
+SWXCSMBDDatumOperation::Do<E:\git\r426-SWXWeb\web\src\SWXCSMBD\SWXCSMBDOperations.m\src\SWXCSMBDDatumOperation.cpp:431  > [pc:0x00007FFA6304F961]
+AfrIterativeOperation::OnCommand<G:\R426\BSF\AfrComputeServer\AfrOperations.m\src\AfrIterativeOperation.cpp:132  > [pc:0x00007FFB3F1B7112]
+SWXCSIterativeOperation::OnCommand<E:\git\r426-SWXWeb\web\src\SWXCSCommandServices\SWXCSProductStructureCommands.m\src\SWXCSIterativeOperation.cpp:501  > [pc:0x00007FFAE0AB3480]
+CSI::CommandState::CallDo<G:\R426\BSF\CSICommandBinder\CSICommandBinder.m\src\CSICommandState.cpp:183  > [pc:0x00007FFAADEDA646]
+CSI::NodeImpl::OnCommandRequestReceived<G:\R426\BSF\CSICommandBinder\CSICommandBinder.m\src\CSINodeImpl.cpp:681  > [pc:0x00007FFAADF53F4F]
+CSI::NodeImpl::OnProtocolV2<G:\R426\BSF\CSICommandBinder\CSICommandBinder.m\src\CSINodeImpl.cpp:856  > [pc:0x00007FFAADF53974]
+CSI::NodeImpl::OnBinary<G:\R426\BSF\CSICommandBinder\CSICommandBinder.m\src\CSINodeImpl.cpp:840  > [pc:0x00007FFAADF51533]
+CSI::CallbackNode::OnBinary<G:\R426\BSF\CSICommandBinder\CSICommandBinder.m\src\CSICallbackNode.cpp:28   > [pc:0x00007FFAADEC6475]
+EK::NodeImpl::OnBinary<G:\R426\BSF\ExperienceKernel\Kernel.m\src\EKNodeImpl.cpp:313  > [pc:0x00007FFAAF2400B5]
+EK::Engine::DoInterpret<G:\R426\BSF\ExperienceKernel\Kernel.m\src\EKEngine.cpp:330  > [pc:0x00007FFAAF1B1468]
+EK::Engine::Interpret<G:\R426\BSF\ExperienceKernel\Kernel.m\src\EKEngine.cpp:376  > [pc:0x00007FFAAF1AEEEF]
+EK::NodeImpl::Interpret<G:\R426\BSF\ExperienceKernel\Kernel.m\src\EKNodeImpl.cpp:205  > [pc:0x00007FFAAF245D79]
+EK::CallbackNode::RunAndWait<G:\R426\BSF\ExperienceKernel\Kernel.m\src\EKCallbackNode.cpp:33   > [pc:0x00007FFAAF19304B]
+CSI::PoolToLaunch::CreateNode<G:\R426\BSF\CSICommandBinder\CSINodesLauncherSrc.m\src\CSIPoolToLaunch.cpp:132  > [pc:0x00007FFB3F27A6DE]
+CSI::ParsedArguments::LaunchNodes<G:\R426\BSF\CSICommandBinder\CSINodesLauncherSrc.m\src\CSIParsedArguments.cpp:373  > [pc:0x00007FFB3F275AD5]
+CSI::csiMain<G:\R426\BSF\CSICommandBinder\CSINodesLauncherSrc.m\src\CSINodesLauncher.cpp:83   > [pc:0x00007FFB3F271207]
+CSI::csiMain<G:\R426\BSF\CSICommandBinder\CSINodesLauncherSrc.m\src\CSINodesLauncher.cpp:18   > [pc:0x00007FFB3F27102E]
+main<G:\R426\BSF\CSICommandBinder\3DExperienceNode.m\src\3DExperienceNode.cpp:8    > [pc:0x00007FF7D89E101C]
+_scrt_common_main_seh<D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288  > [pc:0x00007FF7D89E122C]
+BaseThreadInitThunk +0x14 [pc:0x00007FFB64067614 func:0x7ffb64067600 lf=0xc80 load=KERNEL32(0x00007FFB64050000:0x00007FFB6410F000)]
+RtlUserThreadStart +0x21 [pc:0x00007FFB642E26B1 func:0x7ffb642e2690 lf=0x50 load=ntdll(0x00007FFB64290000:0x00007FFB64488000)]
+RtlUserThreadStart +0x21 [pc:0x00007FFB642E26B1 func:0x7ffb642e2690 lf=0x50 load=ntdll(0x00007FFB64290000:0x00007FFB64488000)]
+
+
+[STACK EXTRACT]
+
+CATErrorLogInfoLastChance<..  : 0x00000255F6F2B2A0 0x00007FFA0000B38C 0x00007FFA00000005 0x00007FFA00000311
++
